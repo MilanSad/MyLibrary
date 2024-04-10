@@ -1,0 +1,18 @@
+Library project ma home page a nabidku na hlavni stranky (knihy, autory, kategorie)
+Umí zobrazovat detaily pro dany zaznam.
+V public mode (bez prihlaseni) zobrazuje data a recenze.
+V private mode (po prihlašeni) umožnuje vypujčit si / vratit knižku a zanechat recenzi.
+
+Detail knihy obsahuje: info o knihe a recenzie k nej
+Detail Autora obsahuje: info o autorovi a knihy ktore napsal
+Detail kategorie obsahuje: info o kategori a knihy, ktere do ni spadaji
+
+
+
+
+-> dodelat core pomoci skladani stránek (include, extend)
+-> dodelat home page
+-> dodelat navigation, header, footer
+-> dodelat views pro books app
+-> dodelat views, models a templates pro reviews app
+-> dodelat linkovani tam kde to ma zmysel (treba se zeznamu na detail položky)
