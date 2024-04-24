@@ -4,7 +4,7 @@
         <li><a href="{% url 'books' %}">Knihy</a></li>
         <li><a href="{% url 'authors' %}">Autory</a></li>
         <li><a href="{% url 'categories' %}">Kategorie</a></li>
-        <li><a href="{% url 'books' %}">Recenzie</a></li>
+        <li><a href="{% url 'reviews' %}">Recenzie</a></li>
         {% if user.is_authenticated %}
             <li><form action="{% url 'logout' %}" method="post">
                 {% csrf_token %}

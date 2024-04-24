@@ -6,5 +6,15 @@
 
 
 {% block content %}
-<h1>Reviews books</h1>
+<h1>Reviews </h1>
+<h1>Seznam review </h1>
+{% endblock %}
+
+
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Odoslať</button>
+</form>
 {% endblock %}
